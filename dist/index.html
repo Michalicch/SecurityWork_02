@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Охрана Труда</title>
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/stylesheet.css">
+	<link rel="stylesheet" href="./css/media.css">
+	<script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+	<div class="page__wrapper">
+
+
+		<header class="container">
+			<h1>Специализированная клиническая детская инфекционная больница</h1>
+			<h3>Мининистрество здравоохранения Краснодарского края</h3>
+			<div class="header">
+				<div class="header__logo">
+
+					<a class="logo__wrapper" href="./index.html"><img src="./img/logo-skdib.jpg" width="50"
+							alt="Логотип ГБУЗ СКДИБ">
+						<span></span>
+						<span></span>
+					</a>
+
+				</div>
+				<h2 class="header__title visually-hidden">Режим тестирования !!!</h2>
+				<div class="header__nav">
+					<ul class="nav__menu ">
+						<li class="menu__item"><a href="./lectures.html">Лекции</a></li>
+						<li class="menu__item"><a href="./materials.html">Доп материалы</a></li>
+						<li class="menu__item"><a href="#" id="open-reg-test">ТЕСТ</a></li>
+					</ul>
+					<div class="nav__login">
+						<a class="flex-row login" type="button" href="#" id="open-auth-btn"><img class="log__img"
+								src="./img/account.svg" alt="Авторизация"></img><span>Вход</span>
+						</a>
+						<a class="flex-row logout visually-hidden" type="button" href="#" id="close-auth-btn"><img class="log__img"
+								src="./img/account.svg" alt="Авторизация"></img><span>Выход</span>
+						</a>
+					</div>
+
+				</div>
+			</div>
+
+		</header>
+
+
+		<main class="container">
+			<section class="info ">
+				<h2 class="info__title">Ресурс по самостоятельной подготовке и сдаче теста по <br>ОХРАНЕ ТРУДА </h2>
+				<p class="info__manual"> описать как проходить тест и готовиться к нему. Lorem ipsum dolor sit amet consectetur
+					empore?</p>
+			</section>
+
+			<section class="test visually-hidden">
+				<div class="test__content">
+					<ul class="question__number">
+						<li class="question__item question__active" data-question="content0" value="0">1</li>
+						<li class="question__item" data-question="content1" value="1">2</li>
+						<li class="question__item" data-question="content2" value="2">3</li>
+						<li class="question__item" data-question="content3" value="3">4</li>
+						<li class="question__item" data-question="content4" value="4">5</li>
+						<li class="question__item" data-question="content5" value="5">6</li>
+						<li class="question__item" data-question="content6" value="6">7</li>
+						<li class="question__item" data-question="content7" value="7">8</li>
+						<li class="question__item" data-question="content8" value="8">9</li>
+						<li class="question__item" data-question="content9" value="9">10</li>
+					</ul>
+					<div class="question__wrapper" >
+						<!--<div class="question__blok" ></div>-->
+						
+
+					</div>
+					<button class="btn question__button" id="confirm-answer" >Подтвердить ответ</button>				
+
+				</div>
+				<button class="btn question__button" id="test-complete" >Завершить тест</button>
+			</section>
+
+
+
+		</main>
+
+
+		<footer class="container">
+			<div class="social">
+
+				<a href="http://www.sdib.ru/" target="_blank">
+					<img src="./img/logo-skdib.jpg" width="20" alt="">
+				</a>
+				<a href="https://t.me/skdib23" target="_blank">
+					<img src="./img/telegram.png" width="20" alt="">
+				</a>
+				<a href="https://vk.com/skdib23" target="_blank">
+					<img src="./img/vk.png" width="20" alt="">
+				</a>
+				<a href="https://m.ok.ru/dk?st.cmd=altGroupMain&st.groupId=56132491870313&_prevCmd=userAllSearch&tkn=7468"
+					target="_blank">
+					<img src="./img/OK.svg" width="20" alt="">
+				</a>
+			</div>
+			<div>
+				<div class="copyright">
+					© produced by <a href="https://t.me/@SMihalch" target="_blank">Michalicch</a>. All rights reserved.
+				</div>
+			</div>
+
+		</footer>
+
+
+		<!-- Модалки -->
+
+		<!-- Модалка входа в админ панель -->
+		<div class="modal__alert" id="auth-modal">
+			<div class="modal-header">
+				<h2 class="modal__title">Вход в админпанель</h2>
+				<a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+			</div>
+			<form class="test__form" action="#">
+				<label for="login">Логин</label>
+				<input type="text" name="login" id="login-control">
+				<label for="password">Пароль</label>
+				<input type="password" name="password" placeholder="...введите не менее 8 символов" id="password-control">
+				<input class="btn modal__btn login__btn" type="submit" value="Войти">
+			</form>
+		</div>
+
+		<!-- Модалка с формой для регистрации на тестирование -->
+		<div class="registration__form modal__alert ">
+			<h2>Для прохождения тестирования заполните форму</h2>
+			<a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+			<form action="" method="" class="test__form">
+				<div class="form__content">
+					<div class="label__wrapper">
+						<label for="surname">Фамилия</label>
+						<label for="name">Имя</label>
+						<label for="patronymic">Отчество</label>
+						<label for="department">Подразделение</label>
+
+					</div>
+					<div class="input__wrapper">
+						<input type="text" name="surname" id="surname">
+						<input type="text" name="name" id="name">
+						<input type="text" name="patronymic" id="patronymic" placeholder="">
+						<select type="slider" name="department" id="department">
+							<option value="">Выбери подразделение</option>
+							<option value="1 отделение">1 отделение</option>
+							<option value="2 отделение">2 отделение</option>
+							<option value="3 отделение">3 отделение</option>
+							<option value="4 отделение">4 отделение</option>
+							<option value="5 отделение">5 отделение</option>
+							<option value="6 отделение">6 отделение</option>
+							<option value="7 отделение">7 отделение</option>
+							<option value="ОРИТ">ОРИТ</option>
+							<option value="Туб.отделение">Туб.отделение</option>
+							<option value="Приемное отд.">Приемное отд.</option>
+							<option value="Аптека">Аптека</option>
+							<option value="Пищеблок">Пищеблок</option>
+							<option value="Администрация">Администрация</option>
+							<option value="Администрация">АХЧ</option>
+							<option value="Иное">Иное</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn question__button" id="start-testing" >Начать тестирование</button>
+			</form>
+		</div>
+
+
+
+
+
+		<!-- 
+		<div class="modal fade" id="auth-modal">
+			<div class="modal-dialog modal-dialog-centered modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Вход</h5>
+						<button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form action="#">
+							<label for="login-control" class="col-form-label">Логин:</label>
+							<input class="form-control mb-3" type="text" id="login-control">
+							<label for="password-control" class="col-form-label">Пароль:</label>
+							<input class="form-control mb-3" type="password" id="password-control">
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-dark close-btn" data-bs-dismiss="modal">Отмена</button>
+						<button type="button" class="btn btn-dark login-btn">Войти</button>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+	</div>
+
+</body>
+
+</html>

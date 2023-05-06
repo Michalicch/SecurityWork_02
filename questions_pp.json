@@ -1,0 +1,1604 @@
+{
+	"questions": [
+		{
+			"number": 0,
+			"content": "Вызов скорой медицинской помощи производится:",
+			"one": {
+				"text": "непосредственно после оказания первой помощи пострадавшим",
+				"right": false
+			},
+			"two": {
+				"text": "сразу после определения наличия пострадавших на месте происшествия",
+				"right": false
+			},
+			"three": {
+				"text": "после определения примерного количества и состояния пострадавших",
+				"right": true
+			},
+			"four": {
+				"text": "сразу же по прибытии на место дорожно-транспортного происшествия",
+				"right": false
+			}
+		},
+		{
+			"number": 1,
+			"content": "Первая помощь оказывается во всех нижеперечисленных случаях, кроме:",
+			"one": {
+				"text": "отсутствие сознания, дыхания и кровообращения",
+				"right": false
+			},
+			"two": {
+				"text": "травмы различных областей тела и наружные кровотечения",
+				"right": false
+			},
+			"three": {
+				"text": "инородные тела в верхних дыхательных путях",
+				"right": false
+			},
+			"four": {
+				"text": "острые инфекционные заболевания",
+				"right": true
+			}
+		},
+		{
+			"number": 2,
+			"content": "Экстренное извлечение пострадавшего из аварийного автомобиля осуществляется:",
+			"one": {
+				"text": "во всех случаях, когда пострадавшему требуется немедленное оказание первой помощи",
+				"right": false
+			},
+			"two": {
+				"text": "только силами сотрудников скорой медицинской помощи или спасателями МЧС",
+				"right": false
+			},
+			"three": {
+				"text": "при наличии угрозы для жизни и здоровья пострадавшего и невозможности  оказания первой помощи в автомобиле",
+				"right": true
+			},
+			"four": {
+				"text": "в случае, если у пострадавшего отсутствуют признаки серьезных травм",
+				"right": false
+			}
+		},
+		{
+			"number": 3,
+			"content": "Наблюдение за пострадавшим, которому оказана первая помощь, осуществляется:",
+			"one": {
+				"text": "до доставки пострадавшего в медицинское учреждение",
+				"right": false
+			},
+			"two": {
+				"text": "до прибытия скорой медицинской помощи на место происшествия",
+				"right": false
+			},
+			"three": {
+				"text": "до улучшения его самочувствия",
+				"right": false
+			},
+			"four": {
+				"text": "до момента передачи его бригаде скорой медицинской помощи",
+				"right": true
+			}
+		},
+		{
+			"number": 4,
+			"content": "К первой помощи не относятся мероприятия:",
+			"one": {
+				"text": "по оценке обстановки и обеспечению безопасных условий для оказания первой помощи, вызов скорой медицинской помощи",
+				"right": false
+			},
+			"two": {
+				"text": "по определению наличия сознания и дыхания у пострадавшего",
+				"right": false
+			},
+			"three": {
+				"text": "по проведению сердечно-легочной реанимации",
+				"right": false
+			},
+			"four": {
+				"text": "по применению обезболивающих средств",
+				"right": true
+			}
+		},
+		{
+			"number": 5,
+			"content": "Если при попытке оказать помощь пострадавшему его поведение угрожает вашей собственной безопасности нужно:",
+			"one": {
+				"text": "постараться усмирить пострадавшего, чтобы предотвратить нанесение Вам увечий",
+				"right": false
+			},
+			"two": {
+				"text": "попытаться успокоить пострадавшего, взяв его за руку и обратившись к нему тихим голосом",
+				"right": false
+			},
+			"three": {
+				"text": "говорить с пострадавшим властно, чтобы он вам подчинился",
+				"right": false
+			},
+			"four": {
+				"text": "отойти на безопасное расстояние от пострадавшего, вызвать скорую медицинскую помощь и ждать ее прибытия",
+				"right": true
+			}
+		},
+		{
+			"number": 6,
+			"content": "Если вы стали свидетелем неотложной ситуации и готовы помочь, в первую очередь необходимо:",
+			"one": {
+				"text": "осмотреть пострадавшего на предмет опасных для жизни состояний",
+				"right": false
+			},
+			"two": {
+				"text": "позвать помощника",
+				"right": false
+			},
+			"three": {
+				"text": "вызвать экстренные службы",
+				"right": false
+			},
+			"four": {
+				"text": "осмотреть место происшествия на предмет имеющейся опасности для Вас и пострадавшего",
+				"right": true
+			}
+		},
+		{
+			"number": 7,
+			"content": "Аптечку первой помощи (автомобильную) следует пополнять:",
+			"one": {
+				"text": "1 раз в год",
+				"right": false
+			},
+			"two": {
+				"text": "1 раз в 1,5 года",
+				"right": false
+			},
+			"three": {
+				"text": "1 раз в 3–5 лет",
+				"right": false
+			},
+			"four": {
+				"text": "по мере израсходования ее компонентов или истечения их сроков годности",
+				"right": true
+			}
+		},
+		{
+			"number": 8,
+			"content": "У пострадавшего в ДТП в области бедра одежда разорвана, имеется кровотечение обильной струей крови темно-вишневого цвета. Пострадавший находится на проезжей части. В первую очередь необходимо:",
+			"one": {
+				"text": "обеспечить безопасные условия для оказания первой помощи (перемещение пострадавшего, выставление знаков аварийной остановки и т. п.)",
+				"right": true
+			},
+			"two": {
+				"text": "остановить кровотечение путем прямого давления на рану и наложением давящей повязки",
+				"right": false
+			},
+			"three": {
+				"text": "обработать рану антисептическим раствором",
+				"right": false
+			},
+			"four": {
+				"text": "вызвать скорую медицинскую помощь",
+				"right": false
+			}
+		},
+		{
+			"number": 9,
+			"content": "Аптечка первой помощи (автомобильная) необходима:",
+			"one": {
+				"text": "для оказания первой помощи пострадавшим в дорожно-транспортном происшествии",
+				"right": true
+			},
+			"two": {
+				"text": "для прохождения технического осмотра автомобиля",
+				"right": false
+			},
+			"three": {
+				"text": "для предъявления по требованию инспектора ГИБДД",
+				"right": false
+			},
+			"four": {
+				"text": "для постановки транспортного средства на учет",
+				"right": false
+			}
+		},
+		{
+			"number": 10,
+			"content": "При отсутствии у пострадавшего сознания, скорую медицинскую помощь необходимо вызвать:",
+			"one": {
+				"text": "сразу",
+				"right": false
+			},
+			"two": {
+				"text": "после проверки дыхания",
+				"right": true
+			},
+			"three": {
+				"text": "после оказания необходимой первой помощи",
+				"right": false
+			},
+			"four": {
+				"text": "не имеет большого значения",
+				"right": false
+			}
+		},
+		{
+			"number": 11,
+			"content": "При наличии признаков сознания у пострадавшего необходимо:",
+			"one": {
+				"text": "произвести осмотр на наличие у пострадавшего кровотечения и по возможности остановить его",
+				"right": true
+			},
+			"two": {
+				"text": "опросить пострадавшего и выяснить обстоятельства травмы",
+				"right": false
+			},
+			"three": {
+				"text": "дать понюхать пострадавшему нашатырный спирт для предупреждения потери сознания",
+				"right": false
+			},
+			"four": {
+				"text": "попытаться успокоить пострадавшего, предложить ему воды",
+				"right": false
+			}
+		},
+		{
+			"number": 12,
+			"content": "В состав аптечки первой помощи (автомобильной) входит все нижеперечисленное, кроме:",
+			"one": {
+				"text": "жгут кровоостанавливающий",
+				"right": false
+			},
+			"two": {
+				"text": "раствор перекиси водорода",
+				"right": true
+			},
+			"three": {
+				"text": "перчатки медицинские",
+				"right": false
+			},
+			"four": {
+				"text": "устройство для проведения искусственного дыхания",
+				"right": false
+			}
+		},
+		{
+			"number": 13,
+			"content": "Совершая вызов экстренных служб, в первую очередь, необходимо сообщить:",
+			"one": {
+				"text": "фамилию и возраст пострадавших",
+				"right": false
+			},
+			"two": {
+				"text": "точное место происшествия, что произошло",
+				"right": true
+			},
+			"three": {
+				"text": "характер оказываемой первой помощи",
+				"right": false
+			},
+			"four": {
+				"text": "назвать свои личные данные (фамилию, номер телефона)",
+				"right": false
+			}
+		},
+		{
+			"number": 14,
+			"content": "Оказывать психологическую поддержку может:",
+			"one": {
+				"text": "любой человек",
+				"right": true
+			},
+			"two": {
+				"text": "только человек, обладающий соответствующими знаниями и умениями",
+				"right": false
+			},
+			"three": {
+				"text": "только человек, имеющий психологическое образование",
+				"right": false
+			},
+			"four": {
+				"text": "только человек, имеющий медицинское образование",
+				"right": false
+			}
+		},
+		{
+			"number": 15,
+			"content": "Сильные эмоциональные реакции у человека, оказавшегося в экстремальной ситуации – это:",
+			"one": {
+				"text": "симптомы психической болезни, возникающей вследствие переживания психической травмы",
+				"right": false
+			},
+			"two": {
+				"text": "физиологическая реакция человека при возникновении экстремальной ситуации",
+				"right": false
+			},
+			"three": {
+				"text": "нормальная реакция человека на ненормальные для него события",
+				"right": true
+			},
+			"four": {
+				"text": "реакция человека, оказавшегося в экстремальной ситуации, требующая немедленного привлечения медицинского персонала",
+				"right": false
+			}
+		},
+		{
+			"number": 16,
+			"content": "Продолжите фразу «Все граждане России…»:",
+			"one": {
+				"text": "…имеют право оказывать первую помощь",
+				"right": true
+			},
+			"two": {
+				"text": "…несут ответственность за неправильное оказание первой помощи",
+				"right": false
+			},
+			"three": {
+				"text": "…обязаны оказывать первую помощь",
+				"right": false
+			},
+			"four": {
+				"text": "…могут пострадать при неправильном оказании первой помощи",
+				"right": false
+			}
+		},
+		{
+			"number": 17,
+			"content": "Первую помощь на месте происшествия обязаны оказывать:",
+			"one": {
+				"text": "очевидцы происшествия",
+				"right": false
+			},
+			"two": {
+				"text": "сотрудники скорой медицинской помощи",
+				"right": false
+			},
+			"three": {
+				"text": "сотрудники МВД, сотрудники МЧС, водители (причастные к ДТП)",
+				"right": true
+			},
+			"four": {
+				"text": "все перечисленные категории",
+				"right": false
+			}
+		},
+		{
+			"number": 18,
+			"content": "Для снижения риска контакта с биологическими жидкостями пострадавшего при оказании первой помощи необходимо:",
+			"one": {
+				"text": "применять антисептические растворы для обработки кожи до и после оказания первой помощи",
+				"right": false
+			},
+			"two": {
+				"text": "избегать прикасаться к ранам",
+				"right": false
+			},
+			"three": {
+				"text": "пользоваться подручными средствами (носовым платком, куском чистой ткани)",
+				"right": false
+			},
+			"four": {
+				"text": "использовать перчатки и устройство для искусственного дыхания из аптечки",
+				"right": true
+			}
+		},
+		{
+			"number": 19,
+			"content": "Оказание первой помощи требуется:",
+			"one": {
+				"text": "пострадавшему, у которого имеются состояния, определенные современным законодательством",
+				"right": true
+			},
+			"two": {
+				"text": "в случае, если пострадавший или его законные представители требуют, чтобы ему оказали первую помощь",
+				"right": false
+			},
+			"three": {
+				"text": "при наличии у пострадавшего любых повреждений",
+				"right": false
+			},
+			"four": {
+				"text": "в случае, если у пострадавшего имеется сильное кровотечение, нарушения дыхания и сердечной деятельности",
+				"right": false
+			}
+		},
+		{
+			"number": 20,
+			"content": "Для оценки сознания пострадавшего необходимо:",
+			"one": {
+				"text": "похлопать пострадавшего по щекам, надавить на болевые точки",
+				"right": false
+			},
+			"two": {
+				"text": "потормошить пострадавшего за плечи, спросить, что с ним и нужна ли ему помощь",
+				"right": true
+			},
+			"three": {
+				"text": "окликнуть пострадавшего громким голосом",
+				"right": false
+			},
+			"four": {
+				"text": "поднести к носу пострадавшего ватку с нашатырным спиртом",
+				"right": false
+			}
+		},
+		{
+			"number": 21,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 22,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 23,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 24,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 25,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 26,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 27,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 28,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 29,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 30,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 31,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 32,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 33,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 34,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 35,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 36,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 37,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 38,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 39,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 40,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 41,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 42,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 43,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 44,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 45,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 46,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 47,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 48,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 49,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 50,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 51,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 52,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 53,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 54,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 55,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 56,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 57,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 58,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 59,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 60,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 61,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 62,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 63,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 64,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 65,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 66,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 67,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 68,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 69,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 70,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 71,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 72,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 73,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 74,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 75,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 76,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 77,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 78,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		},
+		{
+			"number": 79,
+			"content": "",
+			"one": {
+				"text": "1",
+				"right": false
+			},
+			"two": {
+				"text": "2",
+				"right": false
+			},
+			"three": {
+				"text": "3",
+				"right": true
+			},
+			"four": {
+				"text": "4",
+				"right": false
+			}
+		}
+	]
+}

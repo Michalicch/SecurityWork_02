@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Охрана Труда</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/stylesheet.css">
+	<link rel="stylesheet" href="./css/media.css">
+	
+	<script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+	<div class="page__wrapper">
+		<header class="container">
+			<h1>Специализированная клиническая детская инфекционная больница</h1>
+			<h3>Мининистрество здравоохранения Краснодарского края</h3>
+			<div class="header">
+				<div class="header__logo">
+					<a class="logo__wrapper" href="./index.html"><img src="./img/logo-skdib.jpg" width="50"
+							alt="Логотип ГБУЗ СКДИБ">						
+					</a>
+				</div>
+				<h2 class="header__title ">Режим тестирования !!!</h2>
+				
+			</div>
+
+		</header>
+
+
+		<main class="container">			
+
+			<section class="test ">
+				<div class="test__content">
+					<ul class="question__number">
+						<li class="question__item question__active" data-question="content0">1</li>
+						<li class="question__item" data-question="content1">2</li>
+						<li class="question__item" data-question="content2">3</li>
+						<li class="question__item" data-question="content3">4</li>
+						<li class="question__item" data-question="content4">5</li>
+						<li class="question__item" data-question="content5">6</li>
+						<li class="question__item" data-question="content6">7</li>
+						<li class="question__item" data-question="content7">8</li>
+						<li class="question__item" data-question="content8">9</li>
+						<li class="question__item" data-question="content9">10</li>
+					</ul>
+					<div class="question__wrapper" >
+						<!--<div class="question__blok" ></div>-->
+
+					</div>
+				</div>
+			</section>
+
+
+
+		</main>
+
+		
+
+
+			<!-- Модалки -->
+			<div class="registration__form modal__alert none">
+				<h2>Для прохождения тестирования заполните форму</h2>
+				<form action="" method="post" class="test__form">
+					<div class="form__content">
+						<div class="label__wrapper">
+							<label for="surname">Фамилия</label>
+							<label for="name">Имя</label>
+							<label for="patronymic">Отчество</label>
+							<label for="department">Подразделение</label>
+
+						</div>
+						<div class="input__wrapper">
+							<input type="text" name="surname" id="surname">
+							<input type="text" name="name" id="name">
+							<input type="text" name="patronymic" id="patronymic" placeholder="">
+							<select type="slider" name="department" id="department">
+								<option value="false">Выбери подразделение</option>
+								<option value="1 отделение">1 отделение</option>
+								<option value="2 отделение">2 отделение</option>
+								<option value="3 отделение">3 отделение</option>
+								<option value="4 отделение">4 отделение</option>
+								<option value="5 отделение">5 отделение</option>
+								<option value="6 отделение">6 отделение</option>
+								<option value="7 отделение">7 отделение</option>
+								<option value="ОРИТ">ОРИТ</option>
+								<option value="Туб.отделение">Туб.отделение</option>
+								<option value="Приемное отд.">Приемное отд.</option>
+								<option value="Аптека">Аптека</option>
+								<option value="Пищеблок">Пищеблок</option>
+								<option value="Администрация">Администрация</option>
+								<option value="Администрация">АХЧ</option>
+								<option value="Иное">Иное</option>
+							</select>
+						</div>
+					</div>
+
+					<button class="btn question__button" id="confirm-answer" type="submit">Начать тестирование</button>
+				</form>
+			</div>
+
+			<div class="modal__alert none">
+				<h2 class="modal__title">Великолепно!!!</h2>
+				<p>Тест пройден примите поздравления</p>
+				<button class="btn modal__btn">Закрыть</button>
+			</div>
+
+			<div class="modal__alert none">
+				<h2 class="modal__title">Неудача!!!</h2>
+				<p>Тяжело в учении - легко в бою</p>
+				<button class="btn modal__btn">Попробовать снова</button>
+			</div>
+
+		
+
+
+		<footer class="container">
+			<div class="social">
+
+				<a href="http://www.sdib.ru/" target="_blank">
+					<img src="./img/logo-skdib.jpg" width="20" alt="">
+				</a>
+				<a href="https://t.me/skdib23" target="_blank">
+					<img src="./img/telegram.png" width="20" alt="">
+				</a>
+				<a href="https://vk.com/skdib23" target="_blank">
+					<img src="./img/vk.png" width="20" alt="">
+				</a>
+				<a href="https://m.ok.ru/dk?st.cmd=altGroupMain&st.groupId=56132491870313&_prevCmd=userAllSearch&tkn=7468"
+					target="_blank">
+					<img src="./img/OK.svg" width="20" alt="">
+				</a>
+			</div>
+			<div>
+				<div class="copyright">
+					© produced by <a href="https://t.me/@SMihalch" target="_blank">Michalicch</a>. All rights reserved.
+				</div>
+			</div>
+
+		</footer>
+
+
+
+
+
+
+	</div>
+
+</body>
+
+</html>
