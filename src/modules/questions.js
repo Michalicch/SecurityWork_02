@@ -1,7 +1,8 @@
 import { getData } from "./api";
 import { answerCheck } from "./answerCheck"
 import { randomQuestion } from "./random"
-
+import { regForTesting } from "./regFormTesting"
+import { postData } from "./api";
 //табы на  4ч 38мин  5-10
 
 export const questionsFunc = () => {
@@ -141,10 +142,23 @@ export const questionsFunc = () => {
 		
 		// нажатие на кнопку ПОДТВЕРДИТЬ ОТВЕТ					
 		confirmAnswerBtn.addEventListener('click', completeQuestion)
-		//нажатие кнопки ЗАВЕРШИТЬ ТЕСТ
-		
+
+		//нажатие кнопки ЗАВЕРШИТЬ ТЕСТ		
 		testCompleteBtn.addEventListener('click', () => {
-			answerCheck();			
+			answerCheck();
+			
+			/*
+			btnStartTesting.addEventListener('click', (e) => {
+				e.preventDefault()
+				questionsFunc()
+				setTimeout(() => {
+					numberQuestionArray()
+					postData('/person_ot', personData)
+					console.log(personData);
+				}, 1000);
+				closeModal(regForm)
+			})
+			*/			
 		})
 		
 	getData('/questions_ot')

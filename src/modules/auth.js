@@ -1,6 +1,6 @@
 import { openModal, closeModal } from "./modals";
 import { getData } from "./api";
-//import { regForTesting } from "./regForTesting"
+import { regForTesting } from "./regFormTesting"
 
 
 // видео 2 - 58минута
@@ -13,7 +13,7 @@ export const authFunc = () => {
 	const loginBtn = document.querySelector('.login__btn');
 	const logoutBtn = document.getElementById('close-auth-btn');
 
-	// const openRegTest = document.getElementById('open-reg-test');
+	const openRegTest = document.getElementById('open-reg-test');
 	const regForm = document.querySelector('.registration__form')
 
 
@@ -92,9 +92,9 @@ export const authFunc = () => {
 
 	});
 
-	// openRegTest.addEventListener('click', () => {
-	// 	openModal(regForm)
-	// })
+	openRegTest.addEventListener('click', () => {
+		openModal(regForm)		
+	})
 
 	
 

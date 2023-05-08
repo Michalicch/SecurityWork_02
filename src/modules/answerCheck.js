@@ -1,5 +1,6 @@
 import { getData } from "./api";
-
+import { postData } from "./api";
+import { regFormTesting } from "./regFormTesting"
 
 // проверка выбора варианта ответа и отправки результата на сервер
 export const answerCheck = () => {
@@ -26,7 +27,8 @@ export const answerCheck = () => {
 		let counter = 10; //Счетчик для проверки сдал не сдал
 		let countBigs = 0; //Переменная для определения конгда тест не решали вообще
 		let questionsAlert = ""; //Список номеров вопросов в которых не выбран ни один вариант ответа
-		let result = ""; //Текст отображаемый по окончании теста
+		let result_str = ""; //Текст отображаемый по окончании теста
+		let result = null; //результат теста
 
 		data.forEach(function (elem) {
 			let countBig;
@@ -91,20 +93,30 @@ export const answerCheck = () => {
 		document.querySelector('.question__wrapper').classList.add('visually-hidden')
 
 		if (counter < 8) {
-			result = "Сожалеем, но Вам нужно подучиться - Вы не прошли тест!"
+			result_str = "Сожалеем, но Вам нужно подучиться - Вы не прошли тест!"
+			result = false;
+			//отправить данные на сервер в результ
 		} else {
-			result = "Поздравляем, Вы успешно прошли тест!!!"
+			result_str = "Поздравляем, Вы успешно прошли тест!!!"
+			result = true;
+			//отправить данные на сервер в результ
 		}	
+		let userId = regFormTesting();
+		console.log("userId ACH - " + userId);
+		setTimeout(() => {
+			postData(`'/person_ot?id='${userId}`, result)
+			console.log("резульат - " + result);
+		}, 1000);
 
 		questionFinish.insertAdjacentHTML('beforeend',
 			`
 				<div class="question__finish">
-					<h2 >${result}</h2>								
+					<h2 >${result_str}</h2>								
 				</div>		
 			`)
-		setTimeout(()=>{
-			location.reload();
-		}, 5000)
+		// setTimeout(()=>{
+		// 	location.reload();
+		// }, 5000)
 	}
 	jsonQuestion();	
 

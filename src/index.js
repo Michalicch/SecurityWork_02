@@ -1,5 +1,5 @@
 import { authFunc } from "./modules/auth";
-import { questionsFunc } from "./modules/questions";
+//import { questionsFunc } from "./modules/questions";
 //import { randomQuestion } from "./modules/random";
 import { regFormTesting } from "./modules/regFormTesting"
 //import { answerCheck } from "./modules/answerCheck"

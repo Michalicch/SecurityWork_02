@@ -1,7 +1,7 @@
 // обработка формы регистрации тестируемого для прохождения теста
 import { openModal, closeModal } from "./modals";
 import { questionsFunc } from "./questions";
-import { postData } from "./api";
+import { getData, postData } from "./api";
 
 export const regFormTesting = () => {
 	const regForm = document.querySelector('.registration__form')
@@ -11,7 +11,7 @@ export const regFormTesting = () => {
 	const patronymic = document.getElementById('patronymic') //Отчество
 	const department = document.getElementById('department') //Селект выбора подразделения
 	const btnStartTesting = document.getElementById('start-testing') //кнопка начало тестирования
-
+	
 
 	openRegTest.addEventListener('click', () => {
 		openModal(regForm)
@@ -28,12 +28,12 @@ export const regFormTesting = () => {
 
 	//сохранение данных из регформы и других данных
 	let personData = {
-		id: '',//0,
-		surname: '',//"Шелковой",
-		name: '',//"Сергей",
-		patronymic: '',//"Михайлович",
-		department: '',//"АХЧ",
-		date: '',//"12.03.2023",
+		id: '',//0, ok
+		surname: '',//"Шелковой", ok
+		name: '',//"Сергей", ok
+		patronymic: '',//"Михайлович", ok
+		department: '',//"АХЧ", ok
+		date: '',//"12.03.2023", ok
 		examinationPaper: '', //"Сюда отправляется текст страницы с вариантами ответов экзаменуемого",
 		result: '' //true
 	}
@@ -76,19 +76,28 @@ export const regFormTesting = () => {
 
 	//результат
 	//personData.result = 
-
-
-
+	
+	
+	let userId;
 	btnStartTesting.addEventListener('click', (e) => {
+		
 		e.preventDefault()
 		questionsFunc()
 		setTimeout(() => {
 			numberQuestionArray()
-			postData('/person_ot', personData)
-			console.log(personData);
+			postData('/person_ot', personData)			
 		}, 1000);
 		closeModal(regForm)
+		setTimeout(() => {				
+			getData('/person_ot')
+			.then((data) => {
+				userId = data.at(-1).id; //как эту переменную сделать видимой за пределами addEventListener значение получается при клике, объявление переменной за пределами дает undefined 
+				//console.log("@ - " + userId);
+				//return userId
+			})					
+		}, 1000);
 	})
-
-
+	
+	
+	
 }
